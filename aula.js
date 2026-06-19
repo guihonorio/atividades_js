@@ -1,3 +1,5 @@
+//Variáveis
+
 let nome = "João";
 nome = "Guilherme"
 console.log(nome)
