@@ -53,3 +53,15 @@ console.log("Nota é igual a média (==):" + resultado)
 // &&  -> operador lógico de conjunção (AND)
 // || -> operador lógico de disjunção (OR)
 
+
+//Operadores Ternários
+//condicao ? valorSeVerdadeiro : valorSeFalso
+
+let idade = 20
+let resultado_idade = idade >= 18 ? "Maior de idade" : "Menor de idade"
+console.log(resultado_idade)
+
+let idade_pessoa = 20
+let resultado_dirigir = (idade_pessoa >= 18) ? "Pode Dirigir" : "Não pode dirigir"
+console.log(resultado_dirigir)
+
