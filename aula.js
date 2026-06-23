@@ -65,3 +65,22 @@ let idade_pessoa = 20
 let resultado_dirigir = (idade_pessoa >= 18) ? "Pode Dirigir" : "Não pode dirigir"
 console.log(resultado_dirigir)
 
+
+//Operadores Condicionais
+
+//  IF (condição) {
+//    codigo a ser executado
+
+// }
+
+if (idade >= 0 || idade < 16) {
+    console.log("Não pode votar")
+} else if (idade >=16 || idade <18) {
+    console.log ("Votar opcional")
+} else if (idade >=18 || idade <65) {
+    console.log("Votar obrigatório")
+} else if (idade >=65) {
+    console.log ("Votar opcional")
+} else {
+    console.log ("Idade inválida")
+}
