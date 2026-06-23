@@ -53,7 +53,7 @@ console.log("Nota é igual a média (==):" + resultado)
 // &&  -> operador lógico de conjunção (AND)
 // || -> operador lógico de disjunção (OR)
 
-
+//Operadores Condicionais
 //Operadores Ternários
 //condicao ? valorSeVerdadeiro : valorSeFalso
 
@@ -84,3 +84,39 @@ if (idade >= 0 || idade < 16) {
 } else {
     console.log ("Idade inválida")
 }
+
+//-----------------------------------------//
+
+//Operadores Condicionais
+
+//Condicionais múltiplas
+
+//Switch (Condição)
+//  Case 1:
+//    Bloco de código
+//  Case 2:
+//    Bloco de código
+//  Case 3:
+//    Bloco de código
+//  Default:
+//    Bloco de código
+
+let dia = 3
+switch (dia){
+    case 1:
+        console.log("Segunda-Feira")
+        break
+    case 2:
+        console.log("Terça-Feira")
+        break
+    case 3:
+        console.log("Quarta-Feira")
+        break
+    case 4:
+        console.log("Quinta-Feira")
+        break
+    default:
+        console.log("Dia inválido!")
+}
+
+//Não precisa obrigatoriamente usar os pontos e vírgulas no JavaScript.
