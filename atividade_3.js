@@ -27,7 +27,7 @@ console.log(resultado_idade)
 let idade = 18
 let matriculado = true
 
-if (matriculado = false){
+if (matriculado == false){
     console.log("Aluno não matriculado")
 } else if (matriculado == true && idade >6){
     console.log("Educação Infantil")
