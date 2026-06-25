@@ -120,3 +120,29 @@ switch (dia){
 }
 
 //Não precisa obrigatoriamente usar os pontos e vírgulas no JavaScript.
+
+//Repetição
+
+//For (inicialização; condição; incremento) {
+        //Codigo a ser executado a cada  repetição
+
+// }
+
+// For (let inicio = 1; inicio <=100; inicio ++) {
+//            console.logo ("Número:" + Inicio);
+           
+//}
+
+// numero: 1
+// numero: 2
+// numero: 3
+
+let nomes = ["João", "Thiago", "Pedro", "Judas"]
+
+let nota_1 = [6, 5, 7, 9]
+let nota_2 = [10, 6, 8, 10]
+
+for (let cont = 0; cont<=(nomes.length-1); cont ++){
+    let media = (nota_1[cont] + nota_2[cont]) / 2
+    console.log("Media do aluno: " + nomes [cont] + " É " + media)
+}
